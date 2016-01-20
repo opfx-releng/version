@@ -34,6 +34,7 @@ public final class Version {
     	// this is the first commit in master 
     	// and another onec
     	// and a third one
+    	// and a fourth one
         try {
             InputStream moduleVersion = Version.class.getResourceAsStream("/" + module
                     + ".properties");
