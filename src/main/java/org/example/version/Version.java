@@ -31,7 +31,8 @@ public final class Version {
     private static Map versions;
   
     public static void register(String module) {
-    	// this is the first commit in master
+    	// this is the first commit in master 
+    	// and another one
         try {
             InputStream moduleVersion = Version.class.getResourceAsStream("/" + module
                     + ".properties");
