@@ -32,7 +32,8 @@ public final class Version {
   
     public static void register(String module) {
     	// this is the first commit in master 
-    	// and another one
+    	// and another onec
+    	// and a third one
         try {
             InputStream moduleVersion = Version.class.getResourceAsStream("/" + module
                     + ".properties");
