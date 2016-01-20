@@ -32,6 +32,7 @@ public final class Version {
   
     public static void register(String module) {
         try {
+        	// this is a new branch
             InputStream moduleVersion = Version.class.getResourceAsStream("/" + module
                     + ".properties");
             Properties props = new Properties();
